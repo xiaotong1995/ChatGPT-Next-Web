@@ -1,6 +1,8 @@
 name: Publish Docker image
 
 on:
+  schedule:
+    - cron: "0 5 1,12,25 * *" # every month 3
   workflow_dispatch:
   release:
     types: [published]
