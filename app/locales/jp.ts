@@ -61,13 +61,7 @@ const jp: PartialLocaleType = {
   Settings: {
     Title: "設定",
     SubTitle: "設定オプション",
-    Actions: {
-      ClearAll: "すべてのデータをクリア",
-      ResetAll: "すべてのオプションをリセット",
-      Close: "閉じる",
-      ConfirmResetAll: "すべての設定をリセットしてもよろしいですか？",
-      ConfirmClearAll: "すべてのチャットをリセットしてもよろしいですか？",
-    },
+
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "全ての言語",
@@ -240,6 +234,12 @@ const jp: PartialLocaleType = {
     Close: "閉じる",
     Create: "新規",
     Edit: "編集",
+  },
+  Exporter: {
+    Model: "モデル",
+    Messages: "メッセージ",
+    Topic: "トピック",
+    Time: "時間",
   },
 };
 
